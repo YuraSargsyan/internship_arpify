@@ -7,8 +7,6 @@ const myData = {
 
 const usersData = [];
 
-
-
 function sendRequest() {
     return fetch('http://intern-2022.arpify.com/init', {
         method: 'POST',
@@ -19,7 +17,6 @@ function sendRequest() {
     })
     .then(response => response.json())
     .then(data => usersData.push(data))
-    // .then(res => console.log(usersData))
     .then(result => tableBody(usersData))
 }
 
@@ -39,7 +36,6 @@ function tableBody(data) {
                 <td>${user.birthDay}</td>
                 <td>${user.gender}</td>
             `
-            if(myData == usersData[myData])
             userTable.appendChild(tr)
         }); 
     });
