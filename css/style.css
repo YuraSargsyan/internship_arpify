@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  position: absolute;
+  left: 47%;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #9e8913;
+  padding: 10px;
+  margin: 50px;
+  border-radius: 8px;
+}
